@@ -1,0 +1,62 @@
+.text-justify {
+  text-align: justify;
+}
+.color-blue-icon {
+  color: #1983ae !important;
+}
+.pass-opt:hover {
+  color: #1d9acb !important;
+}
+.color-txt {
+  color: #1d9acb !important;
+}
+.color-icon {
+  color: #8c8d91;
+}
+.log {
+  width: 300px;
+  height: 300px;
+}
+.color-footer {
+  text-decoration: none;
+  color: #000;
+}
+
+.border-hover {
+  border-bottom: 2px solid white !important;
+  transition: border-bottom-color 1s ease-in;
+}
+.bck-img {
+  height: 100vh !important;
+  background-image: url("../src/assets/img/bg3.webp");
+  background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* No repite la imagen */
+  background-position: center center; /* Centra la imagen */
+}
+.border-hover:hover {
+  border-bottom-color: #1d9acb !important;
+}
+.responsive-svg {
+  width: 200px;
+}
+@media (max-width: 768px) {
+  .responsive-svg {
+    width: 250px; /* Tamaño más grande para pantallas más pequeñas (móviles) */
+  }
+}
+/* Agrega este código en tu archivo CSS */
+@media (max-width: 768px) {
+  /* Estilos para dispositivos móviles */
+  .card-img-overlay {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-img-overlay img {
+    width: 50%; /* Ajusta el ancho del SVG */
+    margin-bottom: 20px;
+  }
+  .btn-outline-primary {
+    width: 100%; /* Ajusta el ancho del botón */
+    margin-top: 20px;
+  }
+}
